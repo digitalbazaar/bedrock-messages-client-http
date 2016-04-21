@@ -1,0 +1,43 @@
+{
+  "name": "bedrock-messages-client-http",
+  "version": "0.1.0-dev",
+  "description": "Http endpoints for interfacing with bedrock messages client",
+  "main": "./lib/client-http",
+  "scripts": {
+    "test": "node bedrock/test.js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-messages-client-http"
+  },
+  "keywords": [
+    "bedrock",
+    "messages"
+  ],
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "http://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-messages-client-http/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-messages-client-http",
+  "dependencies": {
+    "async": "^1.5.1",
+    "lodash": "^3.10.1",
+    "node-uuid": "^1.4.7",
+    "request": "^2.67.0",
+    "sinon": "^1.17.2",
+    "bedrock": "^1.0.0",
+    "bedrock-express": "^1.0.0"
+  },
+  "peerDependencies": {
+    "bedrock": "^1.0.0",
+    "bedrock-jobs": "^2.0.0",
+    "bedrock-mongodb": "^2.0.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  }
+}
