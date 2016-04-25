@@ -34,8 +34,7 @@
   },
   "peerDependencies": {
     "bedrock": "^1.0.0",
-    "bedrock-jobs": "^2.0.0",
-    "bedrock-mongodb": "^2.0.0"
+    "bedrock-messages-client": "^1.0.0"
   },
   "directories": {
     "lib": "./lib"
