@@ -9,9 +9,9 @@ var client = {
     label: schemas.label(),
     publicKeyId: {required: true, type: 'string'},
     interval: {required: true, type: 'integer', minimum: 1},
-    strictSSL: {type: 'boolean', required: true},
-    changeKey: {type: 'boolean', required: true}
+    strictSSL: {type: 'boolean', required: true}
   },
+  additionalProperties: false
 };
 
 module.exports.client = function() {
