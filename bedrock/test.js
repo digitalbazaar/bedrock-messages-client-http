@@ -1,8 +1,8 @@
 /*
- * Copyright (c) 2015 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2016 Digital Bazaar, Inc. All rights reserved.
  */
 var bedrock = require('bedrock');
-require('../lib/client-http.js');
+require('../libs');
 
 var config = bedrock.config;
 
