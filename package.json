@@ -1,6 +1,6 @@
 {
   "name": "bedrock-messages-client-http",
-  "version": "1.0.1-dev",
+  "version": "1.0.1",
   "description": "HTTP endpoints for interfacing with bedrock messages client",
   "main": "./lib",
   "scripts": {
