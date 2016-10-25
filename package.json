@@ -28,7 +28,7 @@
   "peerDependencies": {
     "bedrock": "^1.0.0",
     "bedrock-express": "^2.0.0",
-    "bedrock-messages-client": "^0.2.0"
+    "bedrock-messages-client": "^1.0.0"
   },
   "directories": {
     "lib": "./lib"
